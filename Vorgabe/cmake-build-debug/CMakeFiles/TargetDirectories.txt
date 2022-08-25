@@ -1,3 +1,3 @@
-C:/Users/karll/Desktop/Arbeit/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/karll/Desktop/Arbeit/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/karll/Desktop/Arbeit/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/karl/Desktop/Work/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/karl/Desktop/Work/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/karl/Desktop/Work/Taskmanager/Vorgabe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
