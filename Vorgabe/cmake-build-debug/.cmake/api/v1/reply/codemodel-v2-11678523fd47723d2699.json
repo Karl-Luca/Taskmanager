@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-db37dba7f3978ed6c03c.json",
+					"jsonFile" : "target-untitled-Debug-bb3bed751c4830315b9d.json",
 					"name" : "untitled",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/karl/Desktop/Work/Taskmanager/Vorgabe/cmake-build-debug",
-		"source" : "/Users/karl/Desktop/Work/Taskmanager/Vorgabe"
+		"build" : "/Users/alfred/CLionProjects/Taskmanager/Vorgabe/cmake-build-debug",
+		"source" : "/Users/alfred/CLionProjects/Taskmanager/Vorgabe"
 	},
 	"version" : 
 	{

@@ -8,6 +8,8 @@
 
 using namespace std;
 
+//Deine Mum
+
 //Einkaufslisten-Menü Aufruf
 void shopping_list_menu() {
     cout << "(1)    Do you want to add something to the shopping list? \n";
