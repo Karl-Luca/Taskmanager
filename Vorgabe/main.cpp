@@ -40,14 +40,12 @@ vector<string> loadShoppingList(string textfile) {
     return new_vector;
 }
 //Events laden
-vector<string> loadEvents(string textfile) {
+void loadEvents(string textfile) {
     vector<string> new_vector;
-    string str;
+    string event;
     ifstream in(textfile);
-    while(getline(in, str)) {
-        if(str.size() > 0) {
-            new_vector.push_back(str);
-        }
+    while(in >> event) {
+        cout << event << "\n";
     }
 }
 //Einkaufsliste speichern
@@ -106,8 +104,7 @@ string print_menu() {
 void calendar_menu() {
     cout << "What do you want to do?\n";
     cout << "(1)    add an event\n";
-    //cout << "(2)    Ein Event l/224schen\n";
-    cout << "(3)    which events are comming up\n";
+    cout << "(2)    which events are comming up\n";
     cout << "(Z)    back to main menu\n";
     cout << "(X)    to exit the program\n";
 }
@@ -120,6 +117,17 @@ void save_event(string name, vector<string> lang) {
     ofstream output_file(name);
     ostream_iterator<string> output_iterator(output_file, "\n");
     copy(lang.begin(), lang.end(), output_iterator);
+}
+//Event adden
+void addEvent(string day, string month, string year, string event, string ev, vector<string> events) {
+    ev.append(day);
+    ev.append(".");
+    ev.append(month);
+    ev.append(".");
+    ev.append(year);
+    ev.append("|");
+    ev.append(event);
+    events.push_back(ev);
 }
 void UniMenu() {
     cout << "What do you want to do?\n";
@@ -227,19 +235,11 @@ int main() {
                 cout << "day month year event\n";
                 string day, month, year, event, ev;
                 cin >> day >> month >> year >> event;
-                ev.append(day);
-                ev.append(".");
-                ev.append(month);
-                ev.append(".");
-                ev.append(year);
-                ev.append(" ");
-                ev.append(event);
-                events.push_back(ev);
+                addEvent(day, month, year, event, ev, events);
                 save_event("./events.txt", events);
             } else if(calendar_option == "2") {
-
-            } else if(calendar_option == "3") {
-
+                loadEvents("events.txt");
+                exit(0);
             } else if(calendar_option == "Z") {
                 continue;
             } else if(calendar_option == "X") {
