@@ -1,8 +1,6 @@
 # ninja log v5
-5	873	6830088985992122	CMakeFiles/untitled.dir/main.cpp.obj	461e1009f9504cb6
-874	1065	6830088987883843	untitled.exe	a69561a73a3f6362
-4	768	6830690971356489	CMakeFiles/untitled.dir/main.cpp.obj	ec6c16cf0e39fce1
 769	952	6830690973161569	untitled.exe	a69561a73a3f6362
+<<<<<<< HEAD
 5	1085	6832205908990034	CMakeFiles/untitled.dir/main.cpp.obj	ec6c16cf0e39fce1
 1086	1433	6832205912440470	untitled.exe	a69561a73a3f6362
 4	923	6832206423424630	CMakeFiles/untitled.dir/main.cpp.obj	ec6c16cf0e39fce1
@@ -13,3 +11,7 @@
 789	968	6832209271758036	untitled.exe	a69561a73a3f6362
 4	840	6832212498888829	CMakeFiles/untitled.dir/main.cpp.obj	ec6c16cf0e39fce1
 841	1025	6832212500709069	untitled.exe	a69561a73a3f6362
+=======
+0	1890	1661460425926626618	CMakeFiles/untitled.dir/main.cpp.o	fcdc77eb5537e1f4
+1893	1967	1661460426006199689	untitled	2743bf0fd16c5aec
+>>>>>>> 22187c10087b2f8ea019cf8fc2bc56d787490e1d
